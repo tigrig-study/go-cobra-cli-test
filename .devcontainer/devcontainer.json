@@ -1,0 +1,23 @@
+{
+  "name": "Go",
+  "dockerComposeFile": [
+    "../docker-compose.yml"
+  ],
+  "service": "vncharcropper",
+  "workspaceFolder": "/go/src",
+  "settings": {
+    "go.toolsManagement.checkForUpdates": "off",
+    "go.gopath": "/go",
+    "go.gocodeAutoBuild": true,
+    "go.formatTool": "gofmt",
+    "go.useLanguageServer": true,
+    "editor.formatOnSave": false,
+    "[go]": {
+      "editor.formatOnSave": true
+    }
+  },
+  "extensions": [
+    "golang.go",
+    "donjayamanne.githistory"
+  ],
+}

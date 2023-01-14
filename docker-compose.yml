@@ -1,0 +1,8 @@
+services:
+  vncharcropper:
+    build:
+      context: .
+      dockerfile: ./build/Dockerfile
+    tty: true
+    volumes:
+      - .:/go/src
